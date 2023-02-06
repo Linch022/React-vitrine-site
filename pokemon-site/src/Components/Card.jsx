@@ -1,30 +1,16 @@
 import React from 'react';
 import ImgPokemon from './ImgPokemon';
 import PokemonsTypesList from './PokemonsTypesList';
+import './card.css';
 
 const Card = ({ pkmn }) => {
-  console.log(pkmn);
-
   return (
-    <div>
-      {pkmn.map((pokemon) => (
-        <div className='pkmn-card' key={pokemon.id}>
-          <h2>{pokemon.name}</h2>
-          <ImgPokemon data={pokemon} />
-          <PokemonsTypesList data={pokemon.types} />
-        </div>
-      ))}
+    <div className='pkmn-card' key={pkmn.id}>
+      <h2>{pkmn.name}</h2>
+      <ImgPokemon data={pkmn} />
+      <PokemonsTypesList data={pkmn.types} />
     </div>
   );
 };
 
 export default Card;
-
-// useEffect(() => {
-//   const fetchData = async () => {
-//     const getPokemonData = await axios.get(pkmn);
-//     setPokemonData(getPokemonData.data);
-//     console.log(getPokemonData.data);
-//   };
-//   fetchData();
-// }, []);

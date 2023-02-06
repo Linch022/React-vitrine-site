@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Card from './Components/Card';
+import Main from './Components/Main';
 import PokemonList from './Components/PokemonList';
 
 const App = () => {
@@ -12,10 +12,9 @@ const App = () => {
 
   return (
     <div>
-      <h1>Pokedex</h1>
       <PokemonList setGetPokemonsDetails={setGetPokemonsDetails} />
       {allPokemonsDetails.length > 0 ? (
-        <Card pkmn={allPokemonsDetails} />
+        <Main allPokemonsDetails={allPokemonsDetails} />
       ) : null}
     </div>
   );

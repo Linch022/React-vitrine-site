@@ -1,0 +1,10 @@
+.background {
+  background-color: #f5d100;
+  height: 100%;
+}
+.pokemon-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
