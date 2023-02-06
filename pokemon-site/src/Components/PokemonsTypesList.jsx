@@ -1,8 +1,8 @@
 import React from 'react';
 
-const TypesList = ({ types }) => (
+const PokemonsTypesList = ({ data }) => (
   <ul className='types-list'>
-    {types.map((type, index) => (
+    {data.map((type, index) => (
       <li className={type.type.name} key={index}>
         {type.type.name}
       </li>
@@ -10,4 +10,4 @@ const TypesList = ({ types }) => (
   </ul>
 );
 
-export default TypesList;
+export default PokemonsTypesList;
