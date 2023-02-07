@@ -1,23 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import Main from './Components/Main';
-import PokemonList from './Components/PokemonList';
+import React from 'react';
+import Header from './Components/Header';
+import PokemonList from './Components2/PokemonList';
 
 const App = () => {
-  const [getPokemonsDetails, setGetPokemonsDetails] = useState([]);
-  const [allPokemonsDetails, setAllPokemonsDetails] = useState([]);
-
-  useEffect(() => {
-    setAllPokemonsDetails(getPokemonsDetails);
-  }, [getPokemonsDetails]);
-
-  return (
-    <div className='app'>
-      <PokemonList setGetPokemonsDetails={setGetPokemonsDetails} />
-      {allPokemonsDetails.length > 0 ? (
-        <Main allPokemonsDetails={allPokemonsDetails} />
-      ) : null}
+  return <div className='background'>
+      <Header />
+      <div className='pokemon-card-container'>
+        <PokemonList />
+      </div>
     </div>
-  );
 };
 
 export default App;

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const PokemonsDetails = ({ setPokemonsData, getPokemonsUrls }) => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const PokemonsDetails = ({ setPokemonsData, getPokemonsUrls }) => {
     };
     fetchData();
   }, [getPokemonsUrls, setPokemonsData]);
-  return <div></div>;
+  return null;
 };
 
 export default PokemonsDetails;

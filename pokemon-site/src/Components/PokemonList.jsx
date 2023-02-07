@@ -9,7 +9,7 @@ const PokemonList = ({ setGetPokemonsDetails }) => {
   useEffect(() => {
     const fetchData = async () => {
       const apiData = await axios.get(
-        `https://pokeapi.co/api/v2/pokemon?limit=151&offset=0`
+        `https://pokeapi.co/api/v2/pokemon?limit=10&offset=0`
       );
       const urlsPokemonsArray = apiData.data.results.map(
         (pokemon) => pokemon.url
@@ -35,3 +35,4 @@ const PokemonList = ({ setGetPokemonsDetails }) => {
 };
 
 export default PokemonList;
+
