@@ -11,7 +11,7 @@ const App = () => {
   }, [getPokemonsDetails]);
 
   return (
-    <div>
+    <div className='app'>
       <PokemonList setGetPokemonsDetails={setGetPokemonsDetails} />
       {allPokemonsDetails.length > 0 ? (
         <Main allPokemonsDetails={allPokemonsDetails} />

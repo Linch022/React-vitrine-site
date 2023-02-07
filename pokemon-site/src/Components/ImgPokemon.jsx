@@ -4,7 +4,7 @@ const ImgPokemon = ({ data }) => {
   const imagePokemon = data.sprites.other.dream_world.front_default;
   return (
     <div>
-      <img className='img-pokemon' src={imagePokemon} alt={data.name} />
+      <img className={`img-pokemon`} src={imagePokemon} alt={data.name} />
     </div>
   );
 };

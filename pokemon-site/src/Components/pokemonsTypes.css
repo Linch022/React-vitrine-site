@@ -8,53 +8,53 @@
 }
 
 .flying {
-  background-color: rgb(130, 187, 240);
+  background-color: var(--flying-color);
 }
 .fire {
-  background-color: rgb(230, 34, 36);
+  background-color: var(--fire-color);
 }
 .grass {
-  background-color: rgb(61, 162, 37);
+  background-color: var(--grass-color);
 }
 .poison {
-  background-color: rgb(147, 63, 205);
+  background-color: var(--poison-color);
 }
 .water {
-  background-color: rgb(35, 129, 240);
+  background-color: var(--water-color);
 }
 .bug {
-  background-color: rgb(147, 163, 18);
+  background-color: var(--bug-color);
 }
 .normal {
-  background-color: rgb(160, 162, 160);
+  background-color: var(--normal-color);
 }
 .electric {
-  background-color: rgb(251, 195, 0);
+  background-color: var(--electric-color);
 }
 .ground {
-  background-color: rgb(146, 81, 29);
+  background-color: var(--ground-color);
 }
 .fairy {
-  background-color: rgb(241, 112, 239);
+  background-color: var(--fairy-color);
 }
 .fighting {
-  background-color: rgb(255, 129, 0);
+  background-color: var(--fighting-color);
 }
 .psychic {
-  background-color: rgb(241, 62, 122);
+  background-color: var(--psychic-color);
 }
 .rock {
-  background-color: rgb(176, 171, 129);
+  background-color: var(--rock-color);
 }
 .ice {
-  background-color: rgb(61, 216, 254);
+  background-color: var(--ice-color);
 }
 .dragon {
-  background-color: rgb(79, 96, 226);
+  background-color: var(--dragon-color);
 }
 .steel {
-  background-color: rgb(94, 162, 186);
+  background-color: var(--steel-color);
 }
 .ghost {
-  background-color: rgb(113, 62, 112);
+  background-color: var(--ghost-color);
 }

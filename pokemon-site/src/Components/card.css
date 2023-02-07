@@ -1,17 +1,91 @@
 .img-pokemon {
-  height: 100px;
-  width: 100px;
-  background-color: aliceblue;
+  height: 150px;
+  width: 150px;
 }
 
 .pkmn-card {
-  border: 1px solid black;
-  width: 200px;
-  height: 200px;
-  background-color: red;
+  width: 380px;
+  height: 170px;
+  background-color: white;
   margin: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+.text-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+}
+
+.flying-img {
+  background-color: var(--flying-color);
+  border: 4mm ridge var(--flying-color);
+}
+.fire-img {
+  background-color: var(--fire-color);
+  border: 4mm ridge var(--fire-color);
+}
+.grass-img {
+  background-color: var(--grass-color);
+  border: 4mm ridge var(--grass-color);
+}
+.poison-img {
+  background-color: var(--poison-color);
+  border: 4mm ridge var(--poison-color);
+}
+.water-img {
+  background-color: var(--water-color);
+  border: 4mm ridge var(--water-color);
+}
+.bug-img {
+  background-color: var(--bug-color);
+  border: 4mm ridge var(--bug-color);
+}
+.normal-img {
+  background-color: var(--normal-color);
+  border: 4mm ridge var(--normal-color);
+}
+.electric-img {
+  background-color: var(--electric-color);
+  border: 4mm ridge var(--electric-color);
+}
+.ground-img {
+  background-color: var(--ground-color);
+  border: 4mm ridge var(--ground-color);
+}
+.fairy-img {
+  background-color: var(--fairy-color);
+  border: 4mm ridge var(--fairy-color);
+}
+.fighting-img {
+  background-color: var(--fighting-color);
+  border: 4mm ridge var(--fighting-color);
+}
+.psychic-img {
+  background-color: var(--psychic-color);
+  border: 4mm ridge var(--psychic-color);
+}
+.rock-img {
+  background-color: var(--rock-color);
+  border: 4mm ridge var(--rock-color);
+}
+.ice-img {
+  background-color: var(--ice-color);
+  border: 4mm ridge var(--ice-color);
+}
+.dragon-img {
+  background-color: var(--dragon-color);
+  border: 4mm ridge var(--dragon-color);
+}
+.steel-img {
+  background-color: var(--steel-color);
+  border: 4mm ridge var(--steel-color);
+}
+.ghost-img {
+  background-color: var(--ghost-color);
+  border: 4mm ridge var(--ghost-color);
 }
