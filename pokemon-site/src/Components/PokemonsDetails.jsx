@@ -17,7 +17,7 @@ const PokemonsDetails = ({ setPokemonsData, getPokemonsUrls }) => {
     };
     fetchData();
   }, [getPokemonsUrls, setPokemonsData]);
-  return <div></div>;
+  return null;
 };
 
 export default PokemonsDetails;
